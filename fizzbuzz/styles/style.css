@@ -1,0 +1,33 @@
+/******FIZZBUZZ*******/
+
+/***** BASE STYLES *****/
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: yellowgreen;
+    color: blue;
+    font-size: 24px;
+    text-align: center;
+}
+h1 {
+    color: palevioletred;
+    background-color: blue;
+}
+ul {
+    list-style-type: none;
+}
+.fizz {
+    color: red;
+    height: 1.25em;
+    opacity: .3;
+}
+.buzz {
+    margin: auto;
+    padding: 2%;
+    border: 5px dashed green;
+    color: purple;
+    height: 1.25em;
+    width: 3em;
+}
+h6 {
+    float: right;
+}

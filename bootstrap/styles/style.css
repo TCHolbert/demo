@@ -1,0 +1,17 @@
+/******June 27, 2017*******/
+
+/***** BASE STYLES *****/
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.jumbotron {
+    color: lawngreen;
+    background-color: black;
+}
+.well {
+    color: blueviolet;
+    background-color: blue
+}
+.halfwidth {
+    width: 50%;
+}
