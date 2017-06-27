@@ -1,0 +1,17 @@
+/******Template*******/
+
+/***** BASE STYLES *****/
+body{
+    background-color: green !important;
+    font-family: 'Josefin Sans', sans-serif;
+}
+@meta charset="UTF-8";
+#id {
+    background-color: burlywood;
+}
+.class {
+    background-color: yellowgreen;
+}
+div.note {
+    background-color: red
+}
