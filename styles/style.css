@@ -4,6 +4,7 @@
 body{
     font-family: 'Josefin Sans', sans-serif;
 }
+
 div {
     background-color: green !important;
     height: 10%;
@@ -16,9 +17,7 @@ div {
 .class {
     background-color: yellowgreen;
 }
-div.note {
-    background-color: red;
-}
+
 /* child elements */
 div > h2 {
     background-color: plum;
