@@ -1,11 +1,15 @@
-/******Template*******/
+/******June 27, 2017*******/
 
 /***** BASE STYLES *****/
 body{
-    background-color: green !important;
     font-family: 'Josefin Sans', sans-serif;
 }
-@meta charset="UTF-8";
+div {
+    background-color: green !important;
+    height: 10%;
+    width: 1em;
+    border: 1px solid black;
+}
 #id {
     background-color: burlywood;
 }
@@ -13,5 +17,24 @@ body{
     background-color: yellowgreen;
 }
 div.note {
-    background-color: red
+    background-color: red;
+}
+/* child elements */
+div > h2 {
+    background-color: plum;
+}
+/*decendant*/
+div p {
+    background-color: green;
+}
+/*pseudo selector*/
+table:hover {
+    background-color: palevioletred
+}
+
+/*attribute syntax
+element[attr="value"]
+*/
+div[class="note"] {
+    color: yellow;
 }
